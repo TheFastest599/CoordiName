@@ -1,0 +1,41 @@
+The accuracy of 1 second in geographic coordinates can be determined by converting 1 second of latitude or longitude to the corresponding distance on the Earth's surface.
+
+Latitude:
+Latitude lines run parallel to each other, so the distance represented by 1 second of latitude is constant.
+
+1 degree of latitude = 111,320 meters (approximately)
+
+1 minute of latitude = 111,320 meters / 60 = 1,855.33 meters (approximately)
+
+1 second of latitude = 1,855.33 meters / 60 = 30.922 meters (approximately)
+
+So, 1 second of latitude represents approximately 30.92 meters.
+
+Longitude:
+Longitude lines converge at the poles, so the distance represented by 1 second of longitude varies depending on the latitude.
+
+1 degree of longitude at the equator = 111,320 meters (approximately)
+
+1 minute of longitude at the equator = 111,320 meters / 60 = 1,855.33 meters (approximately)
+
+1 second of longitude at the equator = 1,855.33 meters / 60 = 30.922 meters (approximately)
+
+To find the distance represented by 1 second of longitude at a given latitude, you can use the cosine of the latitude:
+
+Distance at latitude = 30.922 meters * cos(latitude)
+
+For example, at 45 degrees latitude:
+
+Distance at 45 degrees latitude = 30.922 meters * cos(45°) = 30.922 meters * 0.7071 ≈ 21.88 meters
+
+So, the accuracy of 1 second of longitude varies from approximately 30.92 meters at the equator to 0 meters at the poles.
+
+Summary:
+Latitude: 1 second of latitude is approximately 30.92 meters.
+Longitude: 1 second of longitude varies from approximately 30.92 meters at the equator to 0 meters at the poles, depending on the latitude.
+
+----------------------------------------------------------------------------------------------------------
+
+0 degree E and 0 degree W is same (prime meridian)
+180 degree E and 180 degree W is same 
+

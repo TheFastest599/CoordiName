@@ -1,0 +1,9 @@
+{
+	"tier": {
+		"0": {
+			"reqPerDay": 1000
+		}
+	},
+	"apiReqBucket": 20,
+	"apiReqBucketAdvanced": 5
+}
